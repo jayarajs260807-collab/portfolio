@@ -21,10 +21,6 @@ body{
     overflow-x:hidden;
 }
 
-img{
-    max-width:100%;
-    display:block;
-}
 
 a{
     text-decoration:none;
@@ -238,37 +234,8 @@ color:#08111f;
 
 }
 
-.hero-image{
 
-flex:1;
 
-display:flex;
-
-justify-content:center;
-
-}
-
-.hero-image img{
-
-width:350px;
-
-height:350px;
-
-border-radius:50%;
-
-border:6px solid #00d9ff;
-
-object-fit:cover;
-
-box-shadow:
-
-0 0 30px #00d9ff,
-
-0 0 70px rgba(0,217,255,.5);
-
-animation:float 4s ease-in-out infinite;
-
-}
 
 @keyframes float{
 
