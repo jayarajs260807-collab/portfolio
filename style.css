@@ -447,3 +447,71 @@ flex-direction:column;
     text-align:center;
 
 }
+
+.project-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.project-card{
+
+min-height:140px;
+
+align-items:center;
+
+}
+
+.project-card h3{
+
+font-size:24px;
+
+margin-bottom:8px;
+
+}
+
+.project-card p{
+
+color:#cbd5e1;
+
+line-height:1.6;
+
+}
+
+.project-card i{
+
+font-size:38px;
+
+color:#00d9ff;
+
+transition:.4s;
+
+}
+
+.project-card:hover i{
+
+transform:rotate(-10deg) scale(1.2);
+
+}
+
+.project-card:hover{
+
+background:#1b2d52;
+
+box-shadow:0 12px 35px rgba(0,217,255,.35);
+
+}
+
+*{
+Background: #030712
+card: #111827
+Primary: #3B82F6
+Accent: #06B6D4
+Text: #F9FAFB
+Secondary Text: #9CA3AF}
