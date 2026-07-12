@@ -101,6 +101,22 @@ transition:.3s;
 
 }
 
+/* Fix spacing between Skills and Projects */
+
+#skills {
+    margin-bottom: 0 !important;
+    padding-bottom: 40px !important;
+}
+
+#projects {
+    margin-top: 0 !important;
+    padding-top: 40px !important;
+}
+
+#skills + #projects {
+    margin-top: 0 !important;
+}
+
 nav a:hover{
 
 color:#00d9ff;
@@ -508,10 +524,3 @@ box-shadow:0 12px 35px rgba(0,217,255,.35);
 
 }
 
-*{
-Background: #030712
-card: #111827
-Primary: #3B82F6
-Accent: #06B6D4
-Text: #F9FAFB
-Secondary Text: #9CA3AF}
